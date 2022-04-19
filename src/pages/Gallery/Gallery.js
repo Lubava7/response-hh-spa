@@ -17,8 +17,8 @@ function Gallery() {
           <div>
             <div>{item.id}</div>
             <div>{item.title}</div>
-            <img src={item.url} />
-            <div>{item.thumbnailUrl}</div>
+            {/* <img src={item.url} alt='photo'/> */}
+            <img src={item.thumbnailUrl} alt="photo" />
           </div>
         ))}
       </div>
